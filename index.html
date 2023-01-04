@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto&display=swap" rel="stylesheet">
+    <title>Tavern Pushkin</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    <a href="" class="logo__link">
+                        <img src="img/logo.svg" alt="UBER EATS">
+                    </a>
+                </div>
+                <div class="butbas">
+                    <button class="head__button">Войти</button>
+                    <div class="basket">
+                        <img src="img/basket.svg" alt="basket">
+                    </div>
+                    <!-- <div class="back">
+                        <a class="back__link" href="../../index.html">Назад</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="rectangle">
+        <div class="container"></div>
+    </div>
+
+    <a href="#srch">
+        <div class="btn-up">
+            <img src="img/arrow.svg">
+        </div>
+    </a>
+
+    <section class="jumbo"><span id="srch"></span>
+        <div class="container">
+            <div class="name">
+                <div class="pushkin">Трактир «Пушкин»</div>
+                <div class="tinfo">
+                    <div class="kitchen">₽₽₽ • Европейская</div>
+                    <div class="time">
+                        <div class="minutes">40 - 50 мин</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <nav class="filter container">
+
+        <div class="tab-title tab-title__active" data-tab="snacks">Закуски</div>
+
+        <div class="tab-title" data-tab="salads">Салаты</div>
+
+        <div class="tab-title" data-tab="soups">Супы</div>
+
+        <div class="tab-title" data-tab="hot-dishes">Горячие блюда</div>
+
+        <div class="tab-title" data-tab="side-dishes">Гарниры</div>
+
+        <div class="tab-title" data-tab="desserts">Десерты</div>
+
+    </nav>
+    <hr class="subfilter">
+
+    <main class="tabs container">
+
+        <section class="tab-content tab-content__active" data-tab="snacks">
+            <h2 class="tab-head">Закуски</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="dishinfo">
+                        <div class="dishdes">
+                            <div class="dishname">Сельдь на бородинском хлебе</div>
+                            <div class="clarification">С яйцом и огурцом</div>
+                        </div>
+                        <div class="price">240 ₽</div>
+                    </div>
+                    <img class="dish__photo" src="img/herringonbreed.jpg" alt="Сельдь на бородинском хлебе">
+
+                </div>
+
+                <div class="card">
+                    <div class="dishinfo">
+                        <div class="dishdes">
+                            <div class="dishname">Соленья ассорти</div>
+                            <div class="clarification"></div>
+                        </div>
+                        <div class="price">320 ₽</div>
+                    </div>
+                    <img class="dish__photo" src="img/apickles.jpg" alt="Соленья ассорти">
+
+                </div>
+
+                <div class="card">
+                    <div class="dishinfo">
+                        <div class="dishdes">
+                            <div class="dishname">Грибы маринованные</div>
+                            <div class="clarification"></div>
+                        </div>
+                        <div class="price">300 ₽</div>
+                    </div>
+                    <img class="dish__photo" src="img/mmushrooms.jpg" alt="Грибы маринованные">
+
+                </div>
+
+                <div class="card">
+                    <div class="dishinfo">
+                        <div class="dishdes">
+                            <div class="dishname">Сало домашнее с горчицей</div>
+                            <div class="clarification"></div>
+                        </div>
+                        <div class="price">320 ₽</div>
+                    </div>
+                    <img class="dish__photo" src="img/baconwm.jpg" alt="Сало домашнее с горчицей">
+
+                </div>
+
+                <div class="card">
+                    <div class="dishinfo">
+                        <div class="dishdes">
+                            <div class="dishname">Малосольная семга</div>
+                            <div class="clarification"></div>
+                        </div>
+                        <div class="price">390 ₽</div>
+                    </div>
+                    <img class="dish__photo" src="img/lslateds.jpg" alt="Малосольная семга">
+
+                </div>
+
+                <div class="card">
+                    <div class="dishinfo">
+                        <div class="dishdes">
+                            <div class="dishname">Язык говяжий с хреном</div>
+                            <div class="clarification"></div>
+                        </div>
+                        <div class="price">350 ₽</div>
+                    </div>
+                    <img class="dish__photo" src="img/beeftonguewh.jpg" alt="Язык говяжий с хреном">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tab-content" data-tab="salads">
+            <h2 class="tab-head">Салаты</h2>
+        </section>
+
+        <section class="tab-content" data-tab="soups">
+            <h2 class="tab-head">Супы</h2>
+        </section>
+
+        <section class="tab-content" data-tab="hot-dishes">
+            <h2 class="tab-head">Горячие блюда</h2>
+        </section>
+
+        <section class="tab-content" data-tab="side-dishes">
+            <h2 class="tab-head">Гарниры</h2>
+        </section>
+
+        <section class="tab-content" data-tab="desserts">
+            <h2 class="tab-head">Десерты</h2>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="wlogo">
+                <a href="" class="logo__link">
+                    <img src="img/white-logo.svg" alt="UBER EATS">
+                </a>
+            </div>
+
+            <hr class="footer__hr">
+
+            <div class="about footer__grid">
+                <div class="footer__grid__item">
+                    <div class="language">
+
+                        <form>
+                            <select class="language__select">
+                                <option selected="selected">Русский</option>
+                                <option>English</option>
+                              </select>
+                        </form>
+
+                    </div>
+
+                    <div class="social">
+                        <div class="ueats">
+                            <div class="green">#</div>
+                            UberEats
+                        </div>
+                        <div class="social__links">
+                            <a href="" class="social__link">
+                                <img src="img/facebook.svg" alt="facebook">
+                            </a>
+                            <a href="" class="social__link">
+                                <img src="img/twitter.svg" alt="twitter">
+                            </a>
+                            <a href="" class="social__link">
+                                <img src="img/instagram.svg" alt="instagram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__links footer__grid__item">
+                    <a href="" class="ref">
+                        Об UberEats
+                    </a>
+
+                    <a href="" class="ref">
+                        Станьте партнёром по доставке
+                    </a>
+
+                    <a href="" class="ref">
+                        Станьте парнёром-рестораном
+                    </a>
+                </div>
+
+                <div class="footer__links footer__grid__item">
+                    <a href="" class="ref">
+                        Все города
+                    </a>
+
+                    <a href="" class="ref">
+                        Цены
+                    </a>
+
+                    <a href="" class="ref">
+                        Помощь
+                    </a>
+
+                    <a href="" class="ref">
+                        FAQs
+                    </a>
+                </div>
+            </div>
+
+            <hr class="footer__hr">
+
+            <div class="apps">
+                <a href="" class="apps__link">
+                    <img class="apps__img" src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download_on_the_App_Store">
+                </a>
+                <a href="" class="apps__link">
+                    <img class="apps__img" src="img/en_badge_web_generic-cf6dad406f.jpg" alt="Get_it_on_Google_Play">
+                </a>
+            </div>
+
+            <hr class="footer__hr">
+
+            <div class="end footer__grid">
+                <div class="footer__grid__item">
+                    <a href="" class="ref11">© 2017 Uber Technologies Inc.</a>
+                </div>
+
+                <div class="footer__grid__item">
+                    <a href="" class="ref11">Обработка персональных данных</a>
+                </div>
+
+                <div class="footer__grid__item">
+                    <a href="" class="ref11">Пользовательское соглашение</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
